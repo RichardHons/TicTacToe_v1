@@ -458,9 +458,9 @@ def nahradni_reseni_kdyz_strom_nic(matice_vstup,win_count):
             x_best3=x
             pom=pom2
             
-            print("pom je:")
-            print(pom)
-            print(pomocna2)
+            #print("pom je:")
+            #print(pom)
+            #print(pomocna2)
         pom2=0       
    if win_count != 3:     
        x_best3=found3[1][1]
