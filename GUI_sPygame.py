@@ -214,7 +214,7 @@ def hodnoty_n_minus_1_matic(matice_vstupni,hledam,cislo_hrace,win_count):
     pomocna=matice_vstupni.copy()
     found1=np.where(pomocna == 0)
     # udela vsecky mozne tahy matice
-    # vrati scores 
+    # vrati scores  
     scores=np.zeros((1,len(found1[0])))
     for i in range(len(found1[0])):
            pomocna=matice_vstupni.copy()
@@ -518,7 +518,7 @@ while running:
                     #draw_array(matice,min_pixels)
                     #pygame.draw.circle(screen, (0, 0, 255), (a[0],a[1]), 25)
                    #pygame.display.flip()
-                    #ifwin(matice.copy(),win_count) 
+                   #ifwin(matice.copy(),win_count) 
     
     
 pygame.quit()
